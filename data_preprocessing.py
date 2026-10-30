@@ -3,7 +3,7 @@ import pandas as pd
 class DataPreprocessor:
     def __init__(self, data_paths, target_col):
         """
-        :param data_paths: список путей к файлам (например, ['train.csv', 'test.csv'])
+        :param data_paths: список путей к файлам
         :param target_col: название целевой переменной
         """
         self.data_paths = data_paths if isinstance(data_paths, list) else [data_paths]
